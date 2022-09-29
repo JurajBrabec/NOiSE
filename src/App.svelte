@@ -17,9 +17,7 @@
   <Sources />
   <p>
     Click on one of the <b>provider</b> icons below any of the abums, videos or
-    mixes, and a media player will open in <b>new window</b>.
-    <br />
-    <b>Enjoy</b> 🙂
+    mixes, and a media player will open in <b>new window</b>... Enjoy 🙂
   </p>
   <p>
     And by the way; if you will like it, please consider leaving a <b>comment</b

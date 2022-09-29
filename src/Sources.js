@@ -1,13 +1,13 @@
-import facebook from './assets/facebook.ico';
-import soundCloud from './assets/soundcloud.ico';
-import youtube from './assets/youtube.ico';
-import reverbNation from './assets/reverbnation.ico';
-import spotify from './assets/spotify.ico';
-import deezer from './assets/deezer.ico';
-import hearThis from './assets/hearthis.ico';
-import mixCloud from './assets/mixcloud.ico';
-import liberaPay from './assets/liberapay.ico';
-import stripe from './assets/stripe.ico';
+import facebook from './assets/facebook.png';
+import soundCloud from './assets/soundcloud.png';
+import youtube from './assets/youtube.png';
+import reverbNation from './assets/reverbnation.png';
+import spotify from './assets/spotify.png';
+import deezer from './assets/deezer.png';
+import hearThis from './assets/hearthis.png';
+import mixCloud from './assets/mixcloud.png';
+import liberaPay from './assets/liberapay.png';
+import stripe from './assets/stripe.png';
 
 export default [
   {
