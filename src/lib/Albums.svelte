@@ -2,7 +2,7 @@
   import { sources, albums } from '../stores.js';
 </script>
 
-<section>
+<section id="albums">
   <h2>{$albums.length} Albums</h2>
   <div class="container">
     {#each $albums as { icon, name, songs, time, year }, index}

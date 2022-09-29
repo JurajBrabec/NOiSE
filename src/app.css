@@ -147,6 +147,14 @@ b {
   border: 1px solid var(--bg);
 }
 
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: var(--primary);
+}
+
 a,
 a:active,
 a:focus,

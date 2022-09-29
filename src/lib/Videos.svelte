@@ -2,7 +2,7 @@
   import { sources, videos } from '../stores.js';
 </script>
 
-<section>
+<section id="videos">
   <h2>{$videos.length} Videos</h2>
   <div class="container">
     {#each $videos as { icon, name, time, year }, index}

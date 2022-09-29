@@ -2,7 +2,7 @@
   import { sources, mixes } from '../stores.js';
 </script>
 
-<section>
+<section id="mixes">
   <h2>{$mixes.length} Mixes</h2>
   <div class="container">
     {#each $mixes as { genre, icon, name, time, year }, index}

@@ -4,6 +4,12 @@
   import Mixes from './lib/Mixes.svelte';
   import Videos from './lib/Videos.svelte';
   import Footer from './lib/Footer.svelte';
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    const el = document.getElementById(e.target.dataset.id);
+    window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
+  };
 </script>
 
 <section>
@@ -11,13 +17,15 @@
   <h5>Welcome to my world.</h5>
   <p>
     This is a <b>collection</b> of my musical visions and perceptions from past
-    two
-    <b>decades</b> (2000-2022).
+    <b>two decades</b> (2000-2022).
   </p>
   <Sources />
   <p>
-    Click on one of the <b>provider</b> icons below any of the abums, videos or
-    mixes, and a media player will open in <b>new window</b>... Enjoy 🙂
+    Click on one of the provider icons below any of the
+    <b class="clickable" data-id="albums" on:click={handleClick}>albums</b>,
+    <b class="clickable" data-id="videos" on:click={handleClick}>videos</b> or
+    <b class="clickable" data-id="mixes" on:click={handleClick}>mixes</b>, and a
+    media player will open in new window... <b>Enjoy</b> 🙂
   </p>
   <p>
     And by the way; if you will like it, please consider leaving a <b>comment</b
