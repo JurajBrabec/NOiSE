@@ -1,4 +1,6 @@
 <script>
+  // @ts-ignore
+  import { MetaTags } from 'svelte-meta-tags';
   import Sources from './lib/Sources.svelte';
   import Albums from './lib/Albums.svelte';
   import Mixes from './lib/Mixes.svelte';
@@ -12,6 +14,22 @@
   };
 </script>
 
+<MetaTags
+  title="NOiSEd World"
+  description="Welcome to my world"
+  openGraph={{
+    title: 'NOiSEd World',
+    description: 'Welcome to my world',
+    images: [
+      {
+        url: '/avatar.png',
+        width: 375,
+        height: 400,
+        alt: 'NOiSE',
+      },
+    ],
+  }}
+/>
 <section>
   <h1 class="animation">NOiSEd World</h1>
   <h5>Welcome to my world.</h5>
