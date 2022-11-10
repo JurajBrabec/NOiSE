@@ -64,9 +64,9 @@ export default [
     url: 'https://open.spotify.com/artist/4WlxhUgckGYhQhlF6r0p83',
     albumPrefix: 'https://open.spotify.com/album/',
     albums: [
-      { url: '5rS63FPRwdvS5lYku7FH8X' },
-      { url: '3BQP2hyYvKD4wZZywKLtb4' },
-      { url: '5tlFFr9fQKJnHggOF7qZcO' },
+      { url: '1iN6tq0y7fyUC5z04uDfAd' },
+      { url: '1VFzG7n1300FcMhzyl9R5x' },
+      { url: '3Q5BF3EIbnAUwayusCXZc6' },
     ],
   },
   {
@@ -75,7 +75,7 @@ export default [
     name: 'NOiSE',
     url: 'https://www.deezer.com/artist/162922247',
     albumPrefix: 'https://www.deezer.com/album/',
-    albums: [{ url: '289811692' }, { url: '289699162' }, { url: '???' }],
+    albums: [{ url: '373313307' }, { url: '370734727' }, { url: '371840047' }],
   },
   {
     id: 'HearThis',
