@@ -9,7 +9,7 @@
       <img class="avatar" src={avatar} alt="Avatar" />
       <div>
         {#each $sources.filter((s) => !s.donation) as { icon, id, name, url }}
-          <a target="_blank" href={url}>
+          <a target="_blank" rel="noreferrer" href={url}>
             <img
               class="profile"
               src={icon}

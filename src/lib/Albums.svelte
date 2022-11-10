@@ -14,7 +14,11 @@
         {songs} songs ({time} minutes)
         <div>
           {#each $sources.filter(({ albums }) => albums && albums[index]) as { albumPrefix, albums, icon, id }}
-            <a target="_blank" href={albumPrefix + albums[index].url}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={albumPrefix + albums[index].url}
+            >
               <img
                 class="profile"
                 src={icon}

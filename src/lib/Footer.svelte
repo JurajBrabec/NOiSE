@@ -8,7 +8,7 @@
     <div class="separator" />
     <div>Donate ::</div>
     {#each $sources.filter((s) => s.donation) as { icon, id, name, url }}
-      <a target="_blank" href={url}>
+      <a target="_blank" rel="noreferrer" href={url}>
         <img class="profile" src={icon} alt={id} title={`${id} / ${name}`} />
       </a>
     {/each}

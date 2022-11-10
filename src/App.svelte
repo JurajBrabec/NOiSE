@@ -22,10 +22,25 @@
   <Sources />
   <p>
     Click on one of the provider icons below any of the
-    <b class="clickable" data-id="albums" on:click={handleClick}>albums</b>,
-    <b class="clickable" data-id="videos" on:click={handleClick}>videos</b> or
-    <b class="clickable" data-id="mixes" on:click={handleClick}>mixes</b>, and a
-    media player will open in new window... <b>Enjoy</b> 🙂
+    <b
+      class="clickable"
+      data-id="albums"
+      on:click={handleClick}
+      on:keypress={handleClick}>albums</b
+    >,
+    <b
+      class="clickable"
+      data-id="videos"
+      on:click={handleClick}
+      on:keypress={handleClick}>videos</b
+    >
+    or
+    <b
+      class="clickable"
+      data-id="mixes"
+      on:click={handleClick}
+      on:keypress={handleClick}>mixes</b
+    >, and a media player will open in new window... <b>Enjoy</b> 🙂
   </p>
   <p>
     And by the way; if you will like it, please consider leaving a <b>comment</b

@@ -14,7 +14,11 @@
         {genre} ({time} minutes)
         <div>
           {#each $sources.filter(({ mixes }) => mixes && mixes[index]) as { mixPrefix, mixes, icon, id }}
-            <a target="_blank" href={mixPrefix + mixes[index].url}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={mixPrefix + mixes[index].url}
+            >
               <img
                 class="profile"
                 src={icon}

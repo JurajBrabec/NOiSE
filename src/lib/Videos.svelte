@@ -14,7 +14,11 @@
         {time} minutes
         <div>
           {#each $sources.filter(({ videos }) => videos && videos[index]) as { videoPrefix, videos, icon, id }}
-            <a target="_blank" href={videoPrefix + videos[index].url}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={videoPrefix + videos[index].url}
+            >
               <img
                 class="profile"
                 src={icon}
