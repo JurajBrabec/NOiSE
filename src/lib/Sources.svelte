@@ -1,6 +1,6 @@
 <script>
   import { sources } from '../stores.js';
-  import avatar from '../assets/avatar.png';
+  import avatar from '../assets/avatar2025.png';
 </script>
 
 <section>
