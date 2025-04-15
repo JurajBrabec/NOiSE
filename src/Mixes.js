@@ -6,7 +6,7 @@ import cureInTheMix from './assets/the-cure-in-the-mix.jpg';
 import dmInTheMix from './assets/depeche-mode-in-the-mix.jpg';
 import dmBesides from './assets/depeche-mode-besides.jpg';
 import uuuu from './assets/uuuu.jpg';
-import noIcon from './assets/avatar.png';
+import noIcon from './assets/avatar2025.png';
 
 export default [
   {
